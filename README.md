@@ -37,5 +37,9 @@ sudo apt-get remove python2.7
 pip3 install requests
 pip3 install beautifulsoup4
 pip3 install scrapy
-
+```
+### 創建並設定scrapy
+``` sh
+scrapy startproject Newjob #machinename
+cd Newjob/ && scrapy genspider google www.google.com 
 ```
